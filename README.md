@@ -1,13 +1,13 @@
 # Big 0 Notation: 
 
-## Release 0 : What is Big-O?
+## What is Big-O?
 
 
 1. Read [Big-O notation explained by a self-taught programmer](https://justin.abrah.ms/computer-science/big-o-notation-explained.html)
 2. Read [Big-O is easy to calculate, if you know how](https://justin.abrah.ms/computer-science/how-to-calculate-big-o.html)
 
 
-## Release 1 : Determine the big O
+## Determine the big O
 Give the efficiency of each of the following code snippets. Try out the code snippets below and verify your answers. 
 
 ### Explanations
