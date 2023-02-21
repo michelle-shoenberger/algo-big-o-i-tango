@@ -1,8 +1,9 @@
 # Big O Answers
 
 ## Snippet 1 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: loop pulls all n values for comparison
+### Space - O(1) - item isn't saved, no other variables
 ```python
 def largest(array, value):
   for item in array:
@@ -13,8 +14,9 @@ def largest(array, value):
 
 
 ## Snippet 2 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: runs the n loop twice, but not exponentially
+### Space: O(1) - doesn't create any new variables
 
 ```python
 def info_dump(customers):
@@ -30,8 +32,9 @@ def info_dump(customers):
 ```
 
 ## Snippet 3 -
-### Big O:
-### Explanation:
+### Big O: O(1)
+### Explanation: constant time lookup of array, then comparison
+### Space - O(1) - same
 
 ```python
 def first_element_is_red(array):
@@ -39,8 +42,9 @@ def first_element_is_red(array):
 ```
 
 ## Snippet 4 -
-### Big O:
-### Explanation:
+### Big O: O(n^2)
+### Explanation: nested for loops over array; if statements are constant time
+### Space - O(1)
 
 ```python
 def duplicates(array):
@@ -54,8 +58,9 @@ def duplicates(array):
 ``` 
 
 ## Snippet 5 -
-### Big O:
-### Explanation:
+### Big O: O(n*m)
+### Explanation: nested for loops
+### Space: O(n/m) - space depends on size of two variables
 
 ```python
 words = ['chocolate', 'coconut', 'rainbow']
@@ -68,8 +73,9 @@ for word in words:
 ```
 
 ## Snippet 6 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: loop over n elements
+# Space: O(n) - space for variable
 
 ```python
 numbers = [1,2,3,4,5,6,7,8,9,10]
@@ -81,8 +87,9 @@ def print_array(array):
 ```
 
 ## Snippet 7 -
-### Big O:
-### Explanation:
+### Big O: O(n^2)
+### Explanation: worst case would require about the full range each i
+### Space: O(n) - assuming space for arr; arr is accessed but not resized
 
 ```python
 # this is insertion sort
@@ -97,8 +104,9 @@ def insertionSort(arr):
 ```
 
 ## Snippet 8 -
-### Big O:
-### Explanation:
+### Big O: O(n^2)
+### Explanation: worst case
+### Space: O(n) - my_list; min_idx constant
 
 ```python
 for i in range(len(my_list)):
